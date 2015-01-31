@@ -66,7 +66,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', ['jshint', 'clean:tests', 'mdoc', 'nodeunit']);
   grunt.registerTask('instrument', ['jshint', 'clean', 'jscoverage']);
-  grunt.registerTask('coveralls', ['test', 'coveralls']);
+  grunt.registerTask('post_coverage', ['test', 'coveralls']);
   grunt.registerTask('default', ['test']);
 
 };
