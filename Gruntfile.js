@@ -2,6 +2,10 @@
 
 module.exports = function (grunt) {
 
+  var coverage = process.env.GRUNT_MDOC_COVERAGE;
+
+  require('time-grunt')(grunt);
+
   grunt.initConfig({
 
     jshint: {
@@ -27,22 +31,42 @@ module.exports = function (grunt) {
     },
 
     nodeunit: {
-      tests: ['test/*_test.js'],
+      tests:   ['test/*_test.js'],
+      options: {
+        reporter: coverage ? 'lcov' : 'verbose',
+        reporterOutput: coverage ? 'coverage/tests.lcov' : undefined
+      }
     },
 
     clean: {
-      tests: ['test/**/output']
+      tests:    ['test/**/output'],
+      coverage: ['coverage']
+    },
+
+    jscoverage: {
+      tasks: {
+        expand: true,
+        cwd:    'tasks/',
+        src:    '*.js',
+        dest:   'coverage/tasks/'
+      }
+    },
+
+    coveralls: {
+      tests: {
+        src: 'coverage/tests.lcov'
+      }
     }
 
   });
 
-  grunt.loadTasks('tasks');
+  grunt.loadTasks(coverage ? 'coverage/tasks' : 'tasks');
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-nodeunit');
-  grunt.loadNpmTasks('grunt-contrib-clean');
+  require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('test', ['jshint', 'clean', 'mdoc', 'nodeunit']);
+  grunt.registerTask('test', ['jshint', 'clean:tests', 'mdoc', 'nodeunit']);
+  grunt.registerTask('instrument', ['jshint', 'clean', 'jscoverage']);
+  grunt.registerTask('coveralls', ['test', 'coveralls']);
   grunt.registerTask('default', ['test']);
 
 };

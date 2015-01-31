@@ -1,7 +1,6 @@
 'use strict';
 
-var grunt = require('grunt'),
-    fs    = require('fs');
+var fs = require('fs');
 
 exports.mdoc = {
 

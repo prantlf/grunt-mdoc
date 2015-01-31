@@ -1,7 +1,13 @@
+.coveralls.yml
 .git
 .gitignore
 .editorconfig
 .idea
 .npmignore
 .travis.yml
+Gruntfile.js
+coverage
+node_modules
+npm-debug.log
 output
+test

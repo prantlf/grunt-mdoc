@@ -13,14 +13,7 @@ module.exports = function (grunt) {
             outputDir: data.dest
           });
 
-      grunt.verbose.writeflags(options, 'Options');
-      try {
-        mdoc.run(options);
-      } catch (error) {
-        grunt.log.error();
-        grunt.fail.warn('Unable to generate the documentation (' +
-                        error.message + ').', error);
-      }
+      mdoc.run(options);
     });
 
 };
