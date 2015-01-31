@@ -1,0 +1,7 @@
+.git
+.gitignore
+.editorconfig
+.idea
+.npmignore
+.travis.yml
+output
