@@ -7,14 +7,15 @@ Markdown sources using [mdoc].
 
 ## Installation
 
-You need [node >= 0.10][node], [npm] and [grunt >= 0.4][grunt] installed
-and your project build managed by a [Gruntfile][getting_started] with the
-necessary modules listed in [package.json].
+You need [node >= 0.8][node], [npm] and [grunt >= 0.4][Grunt] installed
+and your project build managed by a [Gruntfile] with the necessary modules
+listed in [package.json].  If you haven't used Grunt before, be sure to
+check out the [Getting Started] guide, as it explains how to create a
+Gruntfile as well as install and use Grunt plugins.  Once you're familiar
+with that process, you may install this plugin with this command:
 
-Install the grunt-mdoc module and add it to the development dependencies:
-
-```bash
-npm install grunt-mdoc --save-dev
+```shell
+$ npm install grunt-mdoc --save-dev
 ```
 
 ## Input
@@ -76,7 +77,7 @@ grunt.loadNpmTasks('grunt-mdoc');
 
 Call the `mdoc` task:
 
-```bash
+```shell
 $ grunt mdoc
 ```
 
@@ -92,13 +93,22 @@ The generated `index.html` file should be opened from a HTTP server.  The
 sidebar that shows the documentation index is loaded by AJAX, which does
 not work when the HTML page is opened from the `file://` scheme.
 
+## Contributing
+
+In lieu of a formal styleguide, take care to maintain the existing coding
+style.  Add unit tests for any new or changed functionality. Lint and test
+your code using Grunt.
+
 ## License
 
 Copyright (c) 2015 Ferdinand Prantl
+
 Licensed under the MIT license.
 
 [node]: http://nodejs.org
 [npm]: http://npmjs.org
-[grunt]: https://gruntjs.com
-[getting_started]: https://github.com/gruntjs/grunt/wiki/Getting-started
+[package.json]: https://docs.npmjs.com/files/package.json
+[Grunt]: https://gruntjs.com
+[Gruntfile]: http://gruntjs.com/sample-gruntfile
+[Getting Gtarted]: https://github.com/gruntjs/grunt/wiki/Getting-started
 [mdoc]: https://github.com/millermedeiros/mdoc
