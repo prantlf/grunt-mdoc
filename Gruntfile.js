@@ -72,7 +72,7 @@ module.exports = function (grunt) {
               username: 'sonar',
               password: 'sonar'
             },
-            projectKey: 'sonar:grunt-sonar-runner:0.1.0',
+            projectKey: 'sonar:grunt-mdoc:0.1.3',
             projectName: 'grunt-mdoc',
             projectVersion: '0.1.3',
             sources: 'tasks',
