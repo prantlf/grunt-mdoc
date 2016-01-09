@@ -101,7 +101,7 @@ your code using Grunt.
 
 ## License
 
-Copyright (c) 2015 Ferdinand Prantl
+Copyright (c) 2015-2016 Ferdinand Prantl
 
 Licensed under the MIT license.
 
