@@ -99,6 +99,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding
 style.  Add unit tests for any new or changed functionality. Lint and test
 your code using Grunt.
 
+## Release History
+
+ * 2016-03-05   v0.2.2   Update dependencies, improve build testing
+ * 2015-01-31   v0.1.1   Initial release
+
 ## License
 
 Copyright (c) 2015-2016 Ferdinand Prantl
