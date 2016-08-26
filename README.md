@@ -101,6 +101,7 @@ your code using Grunt.
 
 ## Release History
 
+ * 2016-26-08   v0.3.0   Upgrade to Grunt 1.x
  * 2016-03-05   v0.2.2   Update dependencies, improve build testing
  * 2015-01-31   v0.1.1   Initial release
 

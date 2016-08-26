@@ -1,7 +1,7 @@
 {
   "name": "grunt-mdoc",
   "description": "Grunt task generating HTML documentation from Markdown sources using mdoc",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "homepage": "https://github.com/prantlf/grunt-mdoc",
   "author": {
     "name": "Ferdinand Prantl",
