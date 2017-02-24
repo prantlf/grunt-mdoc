@@ -1,7 +1,7 @@
 {
   "name": "grunt-mdoc",
   "description": "Grunt task generating HTML documentation from Markdown sources using mdoc",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/prantlf/grunt-mdoc",
   "author": {
     "name": "Ferdinand Prantl",
@@ -32,10 +32,10 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-coveralls": "^1.0.1",
-    "grunt-istanbul": "^0.7.1",
+    "grunt-istanbul": "^0.7.2",
     "jshint-stylish": "^2.2.1",
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0"
