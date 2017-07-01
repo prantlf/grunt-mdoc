@@ -1,7 +1,7 @@
 {
   "name": "grunt-mdoc",
   "description": "Grunt task generating HTML documentation from Markdown sources using mdoc",
-  "version": "0.3.1",
+  "version": "0.0.0-development",
   "homepage": "https://github.com/prantlf/grunt-mdoc",
   "author": {
     "name": "Ferdinand Prantl",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/prantlf/grunt-mdoc.git"
+    "url": "https://github.com/prantlf/grunt-mdoc.git"
   },
   "bugs": {
     "url": "https://github.com/prantlf/grunt-mdoc/issues"
@@ -27,7 +27,8 @@
   "scripts": {
     "test": "grunt",
     "check_coverage": "GRUNT_MDOC_COVERAGE=1 grunt",
-    "post_coverage": "GRUNT_MDOC_COVERAGE=1 grunt default coveralls"
+    "post_coverage": "GRUNT_MDOC_COVERAGE=1 grunt default coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -38,7 +39,8 @@
     "grunt-istanbul": "^0.7.2",
     "jshint-stylish": "^2.2.1",
     "load-grunt-tasks": "^3.5.2",
-    "time-grunt": "^1.4.0"
+    "time-grunt": "^1.4.0",
+    "semantic-release": "^6.3.6"
   },
   "dependencies": {
     "mdoc": "^0.5.3"
