@@ -28,11 +28,11 @@
     "test": "grunt",
     "check_coverage": "GRUNT_MDOC_COVERAGE=1 grunt",
     "post_coverage": "GRUNT_MDOC_COVERAGE=1 grunt default coveralls",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-coveralls": "^1.0.1",
