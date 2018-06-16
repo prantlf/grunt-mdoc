@@ -1,4 +1,13 @@
-# grunt-mdoc [![NPM version](https://badge.fury.io/js/grunt-mdoc.png)](http://badge.fury.io/js/grunt-mdoc) [![Build Status](https://travis-ci.org/prantlf/grunt-mdoc.png)](https://travis-ci.org/prantlf/grunt-mdoc) [![Coverage Status](https://coveralls.io/repos/prantlf/grunt-mdoc/badge.svg)](https://coveralls.io/r/prantlf/grunt-mdoc) [![Dependency Status](https://david-dm.org/prantlf/grunt-mdoc.svg)](https://david-dm.org/prantlf/grunt-mdoc) [![devDependency Status](https://david-dm.org/prantlf/grunt-mdoc/dev-status.svg)](https://david-dm.org/prantlf/grunt-mdoc#info=devDependencies) [![devDependency Status](https://david-dm.org/prantlf/grunt-mdoc/peer-status.svg)](https://david-dm.org/prantlf/grunt-mdoc#info=peerDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/prantlf/grunt-mdoc.svg)](https://greenkeeper.io/) [![Code Climate](https://codeclimate.com/github/prantlf/grunt-mdoc/badges/gpa.svg)](https://codeclimate.com/github/prantlf/grunt-mdoc) [![Codacy Badge](https://www.codacy.com/project/badge/f3896e8dfa5342b8add12d50390edfcd)](https://www.codacy.com/public/prantlf/grunt-mdoc) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# grunt-mdoc
+[![NPM version](https://badge.fury.io/js/grunt-mdoc.png)](http://badge.fury.io/js/grunt-mdoc)
+[![Build Status](https://travis-ci.org/prantlf/grunt-mdoc.png)](https://travis-ci.org/prantlf/grunt-mdoc)
+[![Coverage Status](https://coveralls.io/repos/prantlf/grunt-mdoc/badge.svg)](https://coveralls.io/r/prantlf/grunt-mdoc)
+[![Dependency Status](https://david-dm.org/prantlf/grunt-mdoc.svg)](https://david-dm.org/prantlf/grunt-mdoc)
+[![devDependency Status](https://david-dm.org/prantlf/grunt-mdoc/dev-status.svg)](https://david-dm.org/prantlf/grunt-mdoc#info=devDependencies)
+[![devDependency Status](https://david-dm.org/prantlf/grunt-mdoc/peer-status.svg)](https://david-dm.org/prantlf/grunt-mdoc#info=peerDependencies)
+[![Code Climate](https://codeclimate.com/github/prantlf/grunt-mdoc/badges/gpa.svg)](https://codeclimate.com/github/prantlf/grunt-mdoc)
+[![Codacy Badge](https://www.codacy.com/project/badge/f3896e8dfa5342b8add12d50390edfcd)](https://www.codacy.com/public/prantlf/grunt-mdoc)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![NPM Downloads](https://nodei.co/npm/grunt-mdoc.png?downloads=true&stars=true)](https://www.npmjs.com/package/grunt-mdoc)
 
